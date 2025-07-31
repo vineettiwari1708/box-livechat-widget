@@ -168,33 +168,7 @@
 
 
 
-<!-- Chat Flow + Configuration -->
-<script
-  id="livechat-widget-script"
-  data-position="right"
-  data-email="youremail@example.com"
-  type="application/json">
-{
-  "flow": [
-    {
-      "question": "🌟 What do you need help with?",
-      "type": "options",
-      "options": ["Support", "Sales", "Partnership"]
-    },
-    {
-      "question": "📛 Your Name:",
-      "type": "text"
-    },
-    {
-      "question": "📞 Contact Number:",
-      "type": "text"
-    }
-  ]
-}
-</script>
 
-<!-- Live Chat Widget Script -->
-<script>
 (function () {
   document.addEventListener("DOMContentLoaded", function () {
     const s = document.getElementById("livechat-widget-script");
@@ -375,5 +349,5 @@
     }
   });
 })();
-</script>
+
 
